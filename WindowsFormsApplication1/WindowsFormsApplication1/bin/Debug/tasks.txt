@@ -1,0 +1,3 @@
+Test Task
+IND II - RevC - USB - Implement a simple application at device end.
+IND II - RevC - USB - Implementing a custom gadget driver at device end
