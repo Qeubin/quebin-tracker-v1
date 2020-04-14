@@ -112,6 +112,7 @@
             this.cmbTaskList.Name = "cmbTaskList";
             this.cmbTaskList.Size = new System.Drawing.Size(779, 24);
             this.cmbTaskList.TabIndex = 5;
+            this.cmbTaskList.SelectedIndexChanged += new System.EventHandler(this.cmbTaskList_SelectedIndexChanged);
             // 
             // btnAddTask
             // 
@@ -138,6 +139,7 @@
             this.btnSelectTask.TabIndex = 7;
             this.btnSelectTask.Text = "Select";
             this.btnSelectTask.UseVisualStyleBackColor = true;
+            this.btnSelectTask.Visible = false;
             this.btnSelectTask.Click += new System.EventHandler(this.btnSelectTask_Click);
             // 
             // lblSelectedTask

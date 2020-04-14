@@ -432,5 +432,13 @@ namespace WindowsFormsApplication1
             this.BringToFront();
             this.TopMost = true;
         }
+
+        private void cmbTaskList_SelectedIndexChanged(object sender, System.EventArgs e)
+        {
+            if (cmbTaskList.Text != "")
+            {
+                lblSelectedTask.Text = cmbTaskList.Text;
+            }
+        }
     }
 }
